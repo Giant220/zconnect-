@@ -1,0 +1,20 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: none;
+}
+header {
+    background-color: orange;
+    color: white;
+    padding: 20px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.about-content {
+    padding: 20px;
+}

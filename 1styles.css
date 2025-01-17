@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: lightgreen;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.destination {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h2 {
+    margin: 1rem 0;
+    color: lightgreen;
+}
+
+.destination p {
+    padding: 0 1rem;
+}
+
+.destination a {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: black;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.destination a:hover {
+    background-color: none;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
